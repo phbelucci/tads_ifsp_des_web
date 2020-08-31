@@ -1,0 +1,123 @@
+{"unidades": [
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": false,
+        "endereco": "R. Fernão Pompeu de Camargo, 800",
+        "bairro": "Jardim Leonor",
+        "cidade": "Campinas - SP",
+        "CEP": "13041-009",
+        "coordenadas": [-22.915777, -47.065287],
+        "imagem": "https://geo1.ggpht.com/cbk?panoid=sTlGRpi63VKu-6vBR2fF4w&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&yaw=270.70032&pitch=0&thumbfov=100&w=262&h=104"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": true,
+        "endereco": "Av. Aquidabã, 440",
+        "bairro": "Bosque",
+        "cidade": "Campinas - SP",
+        "CEP": "13026-510",
+        "coordenadas": [-22.902865, -47.055127],
+        "imagem": "https://lh5.googleusercontent.com/p/AF1QipNfn7aCiY_gnlO5FmMqr2Bo3WKFH-Sf2KoT4nyD=w408-h545-k-no"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": false,
+        "endereco": "R. General Osório",
+        "bairro": "Conceicao",
+        "cidade": "Campinas - SP",
+        "CEP": "13025-066",
+        "coordenadas": [-22.888870, -47.052279],
+        "imagem": "https://geo0.ggpht.com/cbk?panoid=rJnGE1X-Tsm0ow0yq4WcNw&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&yaw=136.35768&pitch=0&thumbfov=100&w=262&h=104"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": true,
+        "endereco": "Av. John Boyd Dunlop, 3900",
+        "bairro": "Jardim Ipaussurama",
+        "cidade": "Campinas - SP",
+        "CEP": "13060-813",
+        "coordenadas": [-22.915478, -47.125865],
+        "imagem": "https://maps.gstatic.com/tactile/pane/default_geocode-1x.png"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": false,
+        "endereco": "R. Roxo Moreira, 1488",
+        "bairro": "Cidade Universitária",
+        "cidade": "Campinas - SP",
+        "CEP": "13083-590",
+        "coordenadas": [-22.810960, -47.070934],
+        "imagem": "https://geo2.ggpht.com/cbk?panoid=IdS2B7_QkBhd4lAWgpKoMw&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=51.934853&pitch=0&thumbfov=100"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": true,
+        "endereco": "Rod. Eng. Miguel Noel Nascentes Burnier",
+        "bairro": "Jardim Profa. Tarcília",
+        "cidade": "Campinas - SP",
+        "CEP": "13087-490",
+        "coordenadas": [-22.843113, -47.041409],
+        "imagem": "https://geo3.ggpht.com/cbk?panoid=QmXuKETZWaLoYKuU6J3VIA&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=257.0653&pitch=0&thumbfov=100"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "CPFL",
+        "atendimento24": false,
+        "endereco": "Av. Iguatemi, 777",
+        "bairro": "Vila Brandina",
+        "cidade": "Campinas - SP",
+        "CEP": "13092-902",
+        "coordenadas": [-22.891594, -47.028200],
+        "imagem": "https://geo1.ggpht.com/cbk?panoid=ronBehwRHQty_W6ifO0vNg&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&yaw=88.73476&pitch=0&thumbfov=100&w=300&h=104"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "Desconhecido",
+        "atendimento24": true,
+        "endereco": "R. Afonso Braz, 445",
+        "bairro": "Vila Nova Conceição",
+        "cidade": "São Paulo - SP",
+        "CEP": "04511-011",
+        "coordenadas": [-23.580968, -46.669378],
+        "imagem": "https://geo0.ggpht.com/cbk?panoid=FHOH5nTyK4DHfEYxYuJejw&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=181.4186&pitch=0&thumbfov=100"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "IPIRANGA",
+        "atendimento24": true,
+        "endereco": "R. Dr. Franco da Rocha, 664",
+        "bairro": "Perdizes",
+        "cidade": "São Paulo - SP",
+        "CEP": "05015-040",
+        "coordenadas": [-23.534656, -46.675347],
+        "imagem": "https://lh5.googleusercontent.com/p/AF1QipP6NAclypzhwufucCRMQCEQfOeal0ldssfhmcJC=w262-h104-p-k-no"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "INCHARGE",
+        "atendimento24": false,
+        "endereco": "Av. Giovanni Gronchi, 6000",
+        "bairro": "Vila Andrade",
+        "cidade": "São Paulo - SP",
+        "CEP": "05724-002",
+        "coordenadas": [-23.624750, -46.734228],
+        "imagem": "https://lh5.googleusercontent.com/p/AF1QipO0sYjV9lPnxgViLEu3sco2eKmK_UB6EZNXSPHQ=w262-h104-p-k-no"
+    },
+    {
+        "header": "Eletroposto",
+        "nome": "IPIRANGA",
+        "atendimento24": true,
+        "endereco": "R. Heitor Penteado, 2047",
+        "bairro": "Sumarezinho",
+        "cidade": "São Paulo - SP",
+        "CEP": "05437-002",
+        "coordenadas": [-23.539668, -46.697086],
+        "imagem": "https://lh5.googleusercontent.com/p/AF1QipPeGvobhHSMVFs6GbQAzFCF5and2vwZxZOmsQDI=w262-h104-p-k-no"
+    }
+]}

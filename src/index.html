@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>JSON Load</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Postos de abastecimento para veículos elétricos</h1>
+            <h4>Exercício DWE: Carregar arquivos JSON do projeto na página HTML</h3>
+            <hr>
+            
+            <button id="btnLoad" type="button" class="btn btn-primary btn-lg btn-block">Carregar informações do arquivo</button>
+            <br>
+            <div class="card-decks" id="box-cartoes"></div>
+        </div>
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <script>
+            var firebaseConfig = {
+                apiKey: "AIzaSyCEYVZEDoXsZnSQzjPgdxvd8-BYRuNTccI",
+                authDomain: "carro-eletrico.firebaseapp.com",
+                databaseURL: "https://carro-eletrico.firebaseio.com",
+                projectId: "carro-eletrico",
+                storageBucket: "carro-eletrico.appspot.com",
+                messagingSenderId: "791162485879",
+                appId: "1:791162485879:web:dc1eece03dc80addfd1a72"
+            };
+            firebase.initializeApp(firebaseConfig);
+          </script>
+          <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+          <script src="scripts/script.js"></script>
+          <script src="scripts/cards.js"></script>
+    </body>
+</html>
