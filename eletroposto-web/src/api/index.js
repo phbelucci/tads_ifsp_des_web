@@ -1,11 +1,7 @@
 import React from 'react';
-
-// import { Container } from './styles';
-
-function Api() {
-  return (
-    <div>ok</div>
-  );
-}
-
-export default Api;
+import axios from 'axios';
+// import { Container } from './style
+const api = axios.create({
+    baseURL: 'https://carro-eletrico.firebaseio.com/unidades.json',
+})
+export default api;
