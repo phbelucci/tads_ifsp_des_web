@@ -1,8 +1,11 @@
-import React, {useState, useEffect} from 'react';
 import api from '../src/api/index'
-
+import React, {useEffect, useState} from 'react';
+import Map from './components/Map'
+import Container from './components/Container'
+import './index.css';
 
 function App() {
+
   const [eletroPostos, setEletroPostos] = useState([]);
 
   useEffect(() => {
@@ -11,19 +14,10 @@ function App() {
       console.log(res.data);
     })
   }, []);
+
   return (
-    <div className="App">
-      {eletroPostos.map( posto => {
-        return (
-          <>
-          <div key={posto.coordenadas[0]}>{posto.nome}</div>
-          <div>{posto.endereco}</div>
-          <div>{posto.CEP}</div>
-          <div>{posto.atendimento24}</div>
-          <br></br>
-          </>
-        )
-      })}
+    <div style={{width: "80vw",  height:"80vh", marginLeft: "100px"}}>
+      <Map eletroPostos={eletroPostos}></Map>
     </div>
   );
 }
