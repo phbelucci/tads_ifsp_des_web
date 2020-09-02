@@ -14,11 +14,13 @@ function MapContainer({eletroPostos}) {
                     return (
                         <Marker position={[posto.coordenadas[0], posto.coordenadas[1]]}>
                             <Popup>
+                                <img src={`${posto.imagem}`} style={{width : "200px", height: "100px"}}></img>
+                                <br />
                                 {posto.nome}
                                 <br />
                                 {posto.endereco}
                                 <br />
-                                Aberto 24hrs? {posto.atendimento24 && "SIM"} 
+                                Aberto 24hrs? {posto.atendimento24 && "SIM" || "NÃO"} 
                             </Popup>
                         </Marker>
                     )
