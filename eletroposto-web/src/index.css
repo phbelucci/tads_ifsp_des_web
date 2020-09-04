@@ -1,6 +1,31 @@
-#mapid { height: 100% }
+body, html {
+    flex: 1;
+}
+
+#mapid { 
+    height: 100%;
+    width: 80%;
+}
 
 .container {
-    width: 80vw;
-    height: 80vh;
+    display: flex;
+}
+
+#containerCards {
+    background-color:  #cee4de;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    overflow: scroll;
+    box-shadow: black;
+    
+}
+
+#cardPostoContainer {
+    
+    padding: 0px;
+    width: 300px;
+    height: 100px;
+    margin-top: 24px;
+    border: 2px solid red;
 }

@@ -1,7 +1,7 @@
 import api from '../src/api/index'
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Map from './components/Map'
-import Container from './components/Container'
+import PostoLista from './components/PostoLista'
 import './index.css';
 
 function App() {
@@ -16,9 +16,12 @@ function App() {
   }, []);
 
   return (
-    <div style={{width: "80vw",  height:"80vh", marginLeft: "100px"}}>
-      <Map eletroPostos={eletroPostos}></Map>
-    </div>
+    <>
+      <div className="container">
+        <PostoLista eletroPostos={eletroPostos} />
+        <Map eletroPostos={eletroPostos} />
+      </div>
+    </>
   );
 }
 
