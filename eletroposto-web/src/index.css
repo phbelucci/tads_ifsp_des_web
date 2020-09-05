@@ -16,7 +16,6 @@ body, html {
     margin: 0px;
     padding: 0px;
     display: flex;
-    overflow: scroll;
     box-shadow: black;
     
 }

@@ -1,7 +1,8 @@
 import api from '../src/api/index'
 import React, { useEffect, useState } from 'react';
-import Map from './components/Map'
-import PostoLista from './components/PostoLista'
+import Map from './components/Map';
+import PostoLista from './components/PostoLista';
+import Destaques from './components/Destaques';
 import './index.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <div className="container">
+        <Destaques/>
         <PostoLista eletroPostos={eletroPostos} />
         <Map eletroPostos={eletroPostos} />
       </div>
