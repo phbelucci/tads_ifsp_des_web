@@ -5,7 +5,7 @@ import '../index.css'
 function MapContainer({ eletroPostos }) {
     return (
         <div style={{ width: "80vw", height: "80vh", marginLeft: "100px" }}>
-            <Map id="mapid" zoom={12} center={[-22.915777, -47.065287]}>
+            <Map id="mapid" zoom={9} center={[-23.164177, -46.700502]}>
                 <TileLayer
                     url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

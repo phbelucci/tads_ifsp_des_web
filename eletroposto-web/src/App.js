@@ -12,8 +12,10 @@ function App() {
 
   useEffect(() => {
     api.get().then(res => {
-      setEletroPostos(res.data);
-      console.log(res.data);
+      let postos = []
+      for (let x in res.data){
+        postos.push(res.data[x])}
+        setEletroPostos(postos);
     })
   }, []);
 
