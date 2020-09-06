@@ -4,7 +4,6 @@ import React from 'react';
 
 function PostoLista({ eletroPostos }) {
 
-  console.log(eletroPostos);
   return (
     <div>
       {eletroPostos.map(posto => {

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Map from './components/Map';
 import PostoLista from './components/PostoLista';
 import Destaques from './components/Destaques';
+import logo from './assets/reciclar.svg'
 import './index.css';
 
 function App() {
@@ -19,9 +20,17 @@ function App() {
   return (
     <>
       <div className="container">
-        <Destaques/>
-        <PostoLista eletroPostos={eletroPostos} />
-        <Map eletroPostos={eletroPostos} />
+        <header className="nav">
+          <nav>
+            <img src={logo}></img>
+            <span>Eco Energy</span>
+          </nav>
+          <Destaques className="containerCardsDestaque" />
+        </header>
+        <main className="main">
+          <PostoLista eletroPostos={eletroPostos} />
+          <Map eletroPostos={eletroPostos} />
+        </main>
       </div>
     </>
   );
