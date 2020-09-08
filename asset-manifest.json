@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tads_ifsp_des_web/static/css/main.f24fa79d.chunk.css",
+    "main.js": "/tads_ifsp_des_web/static/js/main.8de746e9.chunk.js",
+    "main.js.map": "/tads_ifsp_des_web/static/js/main.8de746e9.chunk.js.map",
+    "runtime-main.js": "/tads_ifsp_des_web/static/js/runtime-main.ef570fd7.js",
+    "runtime-main.js.map": "/tads_ifsp_des_web/static/js/runtime-main.ef570fd7.js.map",
+    "static/js/2.d6360606.chunk.js": "/tads_ifsp_des_web/static/js/2.d6360606.chunk.js",
+    "static/js/2.d6360606.chunk.js.map": "/tads_ifsp_des_web/static/js/2.d6360606.chunk.js.map",
+    "index.html": "/tads_ifsp_des_web/index.html",
+    "precache-manifest.a2a4e253c1e75859665cdf12a13c8629.js": "/tads_ifsp_des_web/precache-manifest.a2a4e253c1e75859665cdf12a13c8629.js",
+    "service-worker.js": "/tads_ifsp_des_web/service-worker.js",
+    "static/css/main.f24fa79d.chunk.css.map": "/tads_ifsp_des_web/static/css/main.f24fa79d.chunk.css.map",
+    "static/js/2.d6360606.chunk.js.LICENSE.txt": "/tads_ifsp_des_web/static/js/2.d6360606.chunk.js.LICENSE.txt",
+    "static/media/reciclar.svg": "/tads_ifsp_des_web/static/media/reciclar.c6d5babe.svg",
+    "static/media/star.png": "/tads_ifsp_des_web/static/media/star.b6b1d1e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef570fd7.js",
+    "static/js/2.d6360606.chunk.js",
+    "static/css/main.f24fa79d.chunk.css",
+    "static/js/main.8de746e9.chunk.js"
+  ]
+}
