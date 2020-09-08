@@ -1,10 +1,12 @@
 import React from 'react';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
+
 import '../index.css'
 
 function MapContainer({ eletroPostos }) {
+
     return (
-        <div style={{ width: "80vw", height: "80vh", marginLeft: "100px" }}>
+        <div id="mapContainer">
             <Map id="mapid" zoom={9} center={[-23.164177, -46.700502]}>
                 <TileLayer
                     url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -13,7 +15,7 @@ function MapContainer({ eletroPostos }) {
                 {
                     eletroPostos.map(posto => {
                         return (
-                            <Marker position={[posto.coordenadas[0], posto.coordenadas[1]]}>
+                            <Marker key={posto.id} position={[posto.coordenadas[0], posto.coordenadas[1]]}>
                                 <Popup>
                                     <img src={`${posto.imagem}`} style={{ width: "200px", height: "100px" }} alt="foto"></img>
                                     <br />
