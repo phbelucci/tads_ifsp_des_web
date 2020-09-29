@@ -2,12 +2,12 @@ import Map from './Map';
 import PostoLista from './PostoLista';
 import Navegacao from './Navegacao';
 import SlidesCarousel from './SlidesCarousel'
-import Cards from './Cards'
+import CardsPosto from './CardsPosto'
 
 export {
-    Cards,
+    CardsPosto,
     PostoLista,
     Map,
     Navegacao,
-    SlidesCarousel,
+    SlidesCarousel
 }

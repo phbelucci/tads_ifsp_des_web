@@ -19,10 +19,6 @@ function Navegacao() {
                         <Nav.Link href="sobre">Sobre</Nav.Link>
                         <Nav.Link href="contato">Fale Conosco</Nav.Link>
                     </Nav>
-                    <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
-                    </Form>
                 </Navbar.Collapse>
             </Navbar>
             <br/>

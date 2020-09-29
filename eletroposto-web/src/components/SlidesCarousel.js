@@ -4,9 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function slidesCarousel({ postosDestaque }) {
 
-    console.log(postosDestaque)
+    console.log('postosDestaque',postosDestaque)
     return (
-        <Carousel className="w-50">
+        <Carousel className="w-50" >
 
             {postosDestaque.map(posto => (
                     <Carousel.Item id="itemCarousel">
