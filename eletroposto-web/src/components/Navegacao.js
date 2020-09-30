@@ -17,7 +17,7 @@ function Navegacao() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse  id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <h3 style={{marginRight: '100px'}}>Rede de Abastacimentod de Carros Elétricos</h3>
+                        <h3 style={{marginRight: '100px'}}>Rede de Abastacimento de Carros Elétricos</h3>
                             <Nav.Link href="sobre">Sobre</Nav.Link>
                             <Nav.Link href="contato">Fale Conosco</Nav.Link>
                     </Nav>

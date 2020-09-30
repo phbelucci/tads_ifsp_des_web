@@ -36,7 +36,7 @@ function Sobre() {
       <Navegacao></Navegacao>
       <h3>Sobre o projeto</h3>
       <p>
-        Poucos são os proprietários de veículos elétricos no Brasil. No entento, este número tende a
+        Poucos são os proprietários de veículos elétricos no Brasil. No entanto, este número tende a
         crescer nas próximas décadas. Esta iniciativa visa facilitar a busca por unidades de abastecimento
         preparadas para receber veículos elétricos no estado de São Paulo.
       </p>

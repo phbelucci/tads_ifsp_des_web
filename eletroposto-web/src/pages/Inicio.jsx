@@ -46,11 +46,12 @@ function Inicio({ postosIn }) {
             <SlidesCarousel postosDestaque={postosDestaque} />
           </div>
           <Map eletroPostos={eletroPostos} setEletroPostos={setEletroPostos} />
+          <footer>
+          Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+          </footer>
         </div>
-
       </main>
-      <footer>Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
-      </footer>
+      
     </div>
 
   );

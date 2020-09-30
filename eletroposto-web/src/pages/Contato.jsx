@@ -64,12 +64,12 @@ function Contato() {
           </Form.Row>
 
           <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label>Mensagem</Form.Label>
             <Form.Control ref={mensagem} as="textarea" rows="3" />
           </Form.Group>
 
           <Button variant="primary" type="submit">
-            Submit
+            Enviar
           </Button>
         </Form>
         {
