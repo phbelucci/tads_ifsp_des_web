@@ -34,17 +34,14 @@ function CardsPosto({eletroPostos, filesInLocalStorage, setEletroPostos}) {
                 || posto.bairro.toLowerCase().includes(e.target.value)
             )
         });
-
         if(listaAtualizada.length === 0) setEletroPostos([...JSON.parse(filesInLocalStorage)])
         else setEletroPostos([...listaAtualizada])
-        
-        console.log('eletropostos tela Cards',eletroPostos)
     }
 
     return (
         <div>
-            <Form inline>
-                <FormControl onChange={(e) => handleSearch(e)} type="text" placeholder="Search" className="mr-sm-2" />
+            <Form inline >
+                <FormControl style={{ width: '18rem', marginBottom: '20px'}} onChange={(e) => handleSearch(e)} type="text" placeholder="Search" className="mr-sm-2" />
             </Form>
             {eletroPostos.map(posto => (
                 <>

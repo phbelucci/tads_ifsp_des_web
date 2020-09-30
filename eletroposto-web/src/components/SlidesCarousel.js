@@ -4,14 +4,13 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function slidesCarousel({ postosDestaque }) {
 
-    console.log('postosDestaque',postosDestaque)
     return (
-        <Carousel className="w-50" >
-
+        <Carousel className="w-100" >
             {postosDestaque.map(posto => (
-                    <Carousel.Item id="itemCarousel">
+                    <Carousel.Item >
                         <img
-                            className="d-block w-100"
+                            width="100%"
+                            height="250px"
                             src={posto.imagem}
                             alt={posto.nome}
                         />

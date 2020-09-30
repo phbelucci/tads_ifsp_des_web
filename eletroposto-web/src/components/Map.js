@@ -19,11 +19,11 @@ function MapContainer({ eletroPostos, popupOption }) {
                 {
                     eletroPostos.map(posto => {
                         return (
-                            <Marker  closeOnEscapeKey={true} riseOnHover={true} key={posto.id} position={[posto.coordenadas[0], posto.coordenadas[1]]}>
+                            <Marker closeOnEscapeKey={true} riseOnHover={true} key={posto.id} position={[posto.coordenadas[0], posto.coordenadas[1]]}>
                                 {!popup
                                     ? <div></div>
                                     :
-                                    <Popup > 
+                                    <Popup> 
                                         <img src={`${posto.imagem}`} style={{ width: "200px", height: "100px" }} alt="foto"></img>
                                         <br />
                                         {posto.nome}
